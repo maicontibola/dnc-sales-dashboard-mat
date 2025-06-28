@@ -1,7 +1,7 @@
+import type { theme } from "@types"
 
-import type { Theme } from "@types"
 
-export const lightTheme: Theme = {
+export const lightTheme: theme = {
     appBackground: '#FFF',
     appColor: '#000',
     appDefaultStroke: '#E0E0E0',
@@ -48,7 +48,7 @@ export const lightTheme: Theme = {
 
 
 
-export const darkTheme: Theme = {
+export const darkTheme: theme = {
     appBackground: '#060B26',
     appColor: '#FFF',
     appDefaultStroke: '#21497D',
