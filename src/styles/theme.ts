@@ -1,5 +1,5 @@
-import type { Theme } from "@types";
-
+import type { Theme } from "@types"
+import { ThemeProvider } from 'styled-components';
 export const lightTheme: Theme = {
     appBackground: '#FFF',
     appColor: '#000',

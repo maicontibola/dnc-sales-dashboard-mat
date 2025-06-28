@@ -1,4 +1,3 @@
-
 export interface Theme {
     appBackground: string
     appColor: string
@@ -16,7 +15,6 @@ export interface Theme {
         primaryColor: string
         primaryHover: string
     }
-
     card: {
         alert: string
         background: string
@@ -32,15 +30,10 @@ export interface Theme {
         disabledBorderColor: string
         disabledColor: string
         placeholderColor: string
-
-
     }
-
     typographies: {
         error: string
         subtitle: string
         success: string
     }
-
-
 }
