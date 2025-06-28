@@ -1,6 +1,6 @@
 
 
-export interface theme {
+export interface Theme {
     appBackground: string
     appColor: string
     appDefaultStroke: string
@@ -43,7 +43,7 @@ export interface theme {
 
 
 declare module 'styled-components' {
-    export interface DefaultTheme {
+    export interface DefaultTheme extends Theme {
         appBackground: string
         appColor: string
         appDefaultStroke: string
