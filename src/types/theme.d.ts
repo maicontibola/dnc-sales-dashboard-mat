@@ -1,6 +1,6 @@
-// src/styles/styled.d.ts
 
-export interface Theme {
+
+export interface theme {
     appBackground: string
     appColor: string
     appDefaultStroke: string
@@ -40,7 +40,7 @@ export interface Theme {
     }
 }
 
-import 'styled-components'
+
 
 declare module 'styled-components' {
     export interface DefaultTheme {
