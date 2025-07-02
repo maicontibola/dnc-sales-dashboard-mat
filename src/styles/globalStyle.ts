@@ -1,5 +1,5 @@
-
-import { createGlobalStyle, type DefaultTheme } from "styled-components"
+import { createGlobalStyle } from "styled-components"
+import type { DefaultTheme } from "styled-components"
 
 export const GlobalStyle = createGlobalStyle<{ theme?: DefaultTheme }>`
     body, html {
@@ -10,7 +10,7 @@ export const GlobalStyle = createGlobalStyle<{ theme?: DefaultTheme }>`
         padding: 0;
     }
 
-    h1, h2, p, ul, li {
+    h1, h2, p, ul, li, figure {
         margin: 0;
         padding: 0;
     }   
